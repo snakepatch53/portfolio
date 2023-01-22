@@ -3,6 +3,12 @@ if (empty($lang)) $lang = 'es';
 if ($lang != 'es' && $lang != 'en') $lang = "es";
 $_ = parse_ini_file("./languages/{$lang}.ini");
 $_ME = json_decode(file_get_contents("./src/backend/my_info.json"), true);
+function getUrl($url)
+{
+    if (str_contains($url, './')) $url = str_replace('./', $_ENV['STATIC_PATH'], $url);
+    return $url;
+    return $_ENV['STATIC_PATH'] . $url;
+}
 ?>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -19,6 +19,11 @@
         "en": "I'm a web developer with 3 years of experience in the field. I have worked with different technologies such as HTML, CSS, JavaScript, PHP, MySQL, Laravel, Vue.js, Bootstrap, Tailwind, etc. I am currently studying a degree in computer science at the University of Guadalajara. I am passionate about technology and I am always looking for new challenges to improve my skills.",
         "es": "Soy un desarrollador web con 3 años de experiencia en el campo. He trabajado con diferentes tecnologías como HTML, CSS, JavaScript, PHP, MySQL, Laravel, Vue.js, Bootstrap, Tailwind, etc. Actualmente estudio una carrera de ingeniería en computación en la Universidad de Guadalajara. Me apasiona la tecnología y siempre estoy buscando nuevos retos para mejorar mis habilidades."
     },
+    "client_logo1": "./clients/hercam.png",
+    "client_logo2": "./clients/ists.png",
+    "client_logo3": "./clients/zoenet.jpg",
+    "client_logo4": ".https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/2560px-Adidas_Logo.svg.png",
+    "client_logo5": "./clients/moronanet.jpg",
     "skills": [
         {
             "name": "HTML",
@@ -127,6 +132,13 @@
                 "en": "I have experience with Vue js and I know how to use it to make the code more readable and accessible.",
                 "es": "Tengo experiencia con Vue js y sé cómo usarlo para hacer el código más legible y accesible."
             }
+        }
+    ],
+    "projects": [
+        {
+            "type": "Movil App",
+            "name": "Covid-19",
+            "img": "./covid-19.png"
         }
     ]
 }
