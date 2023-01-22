@@ -1,0 +1,132 @@
+{
+    "name": "Harold",
+    "lastname": "Hernandez",
+    "phone": "099 599 99086",
+    "email": "snakepatch53@gmail.com",
+    "xp_years": "5+",
+    "happy_customers": "10",
+    "finished_projects": "50+",
+    "academic_awards": "4",
+    "job": {
+        "en": "Web Developer",
+        "es": "Desarrollador Web"
+    },
+    "birthday": {
+        "en": "Aug, 04, 1998",
+        "es": "04 de Agosto de 1998"
+    },
+    "story": {
+        "en": "I'm a web developer with 3 years of experience in the field. I have worked with different technologies such as HTML, CSS, JavaScript, PHP, MySQL, Laravel, Vue.js, Bootstrap, Tailwind, etc. I am currently studying a degree in computer science at the University of Guadalajara. I am passionate about technology and I am always looking for new challenges to improve my skills.",
+        "es": "Soy un desarrollador web con 3 años de experiencia en el campo. He trabajado con diferentes tecnologías como HTML, CSS, JavaScript, PHP, MySQL, Laravel, Vue.js, Bootstrap, Tailwind, etc. Actualmente estudio una carrera de ingeniería en computación en la Universidad de Guadalajara. Me apasiona la tecnología y siempre estoy buscando nuevos retos para mejorar mis habilidades."
+    },
+    "skills": [
+        {
+            "name": "HTML",
+            "level": "95%",
+            "fontawesome": "fab fa-html5",
+            "description": {
+                "en": "I have experience with HTML5 and I know how to use semantic tags to make the code more readable and accessible.",
+                "es": "Tengo experiencia con HTML5 y sé cómo usar etiquetas semánticas para hacer el código más legible y accesible."
+            }
+        },
+        {
+            "name": "CSS",
+            "level": "90%",
+            "fontawesome": "fab fa-css3-alt",
+            "description": {
+                "en": "I have experience with CSS and I know how to use it to make the code more readable and accessible.",
+                "es": "Tengo experiencia con CSS y sé cómo usarlo para hacer el código más legible y accesible."
+            }
+        },
+        {
+            "name": "BOOTSTRAP",
+            "level": "90%",
+            "fontawesome": "fab fa-bootstrap",
+            "description": {
+                "en": "I have experience with Bootstrap and I know how to use it to make the code more readable and accessible.",
+                "es": "Tengo experiencia con Bootstrap y sé cómo usarlo para hacer el código más legible y accesible."
+            }
+        },
+        {
+            "name": "TAILWIND",
+            "level": "80%",
+            "fontawesome": "fa-brands fa-css3",
+            "description": {
+                "en": "I have experience with Tailwind and I know how to use it to make the code more readable and accessible.",
+                "es": "Tengo experiencia con Tailwind y sé cómo usarlo para hacer el código más legible y accesible."
+            }
+        },
+        {
+            "name": "JavaScript",
+            "level": "80%",
+            "fontawesome": "fab fa-js",
+            "description": {
+                "en": "I have experience with JavaScript and I know how to use it to make the code more readable and accessible.",
+                "es": "Tengo experiencia con JavaScript y sé cómo usarlo para hacer el código más legible y accesible."
+            }
+        },
+        {
+            "name": "PHP",
+            "level": "80%",
+            "fontawesome": "fab fa-php",
+            "description": {
+                "en": "I have experience with PHP and develop web applications with it.",
+                "es": "Tengo experiencia con PHP y desarrollo aplicaciones web con él."
+            }
+        },
+        {
+            "name": "NODE JS",
+            "level": "70%",
+            "fontawesome": "fab fa-node-js",
+            "description": {
+                "en": "I have experience with Node js and I know how to use it to make the code more readable and accessible.",
+                "es": "Tengo experiencia con Node js y sé cómo usarlo para hacer el código más legible y accesible."
+            }
+        },
+        {
+            "name": "JAVA",
+            "level": "70%",
+            "fontawesome": "fab fa-java",
+            "description": {
+                "en": "I have experience with Java and I know how to use it to make the code more readable and accessible.",
+                "es": "Tengo experiencia con Java y sé cómo usarlo para hacer el código más legible y accesible."
+            }
+        },
+        {
+            "name": "C#",
+            "level": "50%",
+            "fontawesome": "fab fa-windows",
+            "description": {
+                "en": "I have experience with C# and I know how to use it to make the code more readable and accessible.",
+                "es": "Tengo experiencia con C# y sé cómo usarlo para hacer el código más legible y accesible."
+            }
+        },
+        {
+            "name": "PYTHON",
+            "level": "50%",
+            "fontawesome": "fab fa-python",
+            "description": {
+                "en": "I have experience with Python and I know how to use it to make the code more readable and accessible.",
+                "es": "Tengo experiencia con Python y sé cómo usarlo para hacer el código más legible y accesible."
+            }
+        },
+        {
+            "name": "SQL",
+            "level": "80%",
+            "fontawesome": "fas fa-database",
+            "description": {
+                "en": "I have experience with SQL and I know how to use it to make the code more readable and accessible.",
+                "es": "Tengo experiencia con SQL y sé cómo usarlo para hacer el código más legible y accesible."
+            }
+        },
+        {
+            "name": "VUE JS",
+            "level": "70%",
+            "fontawesome": "fab fa-vuejs",
+            "description": {
+                "en": "I have experience with Vue js and I know how to use it to make the code more readable and accessible.",
+                "es": "Tengo experiencia con Vue js y sé cómo usarlo para hacer el código más legible y accesible."
+            }
+        }
+    ]
+}
