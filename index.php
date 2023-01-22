@@ -1,4 +1,11 @@
 <?php
+
+#region Show Errors
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+#endregion
+
 date_default_timezone_set('America/Guayaquil');
 require_once __DIR__ . '/vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
@@ -14,14 +21,6 @@ $_ENV['STATIC_PATH'] = $_ENV['HTTP_PATH'] . $_ENV['STATIC_PATH'];
 if ($_IS_PRODUCTION && $_IS_HTTPS != $_ENV['HTTPS']) {
     header('locaton: ' . $_ENV['HTTP_PATH']);
     exit();
-}
-#endregion
-
-#region Show Errors
-if ($_ENV['SHOW_ERRORS'] == 'true') {
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
 }
 #endregion
 
