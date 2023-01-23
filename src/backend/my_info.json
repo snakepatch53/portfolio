@@ -6,9 +6,9 @@
     "phone": "+593 95 999 9086",
     "email": "snakepatch53@gmail.com",
     "xp_years": "5+",
-    "happy_customers": "10",
+    "happy_customers": "10¿",
     "finished_projects": "50+",
-    "academic_awards": "4",
+    "academic_awards": "5+",
     "contact_about_me": {
         "es": "Harold es un desarrollador web profesional. No dude en ponerse en contacto conmigo.",
         "en": "Harold is a professional web developer. Feel free to get in touch with me."
@@ -22,8 +22,8 @@
         "es": "04 de Agosto de 1998"
     },
     "story": {
-        "en": "I'm a web developer with 3 years of experience in the field. I have worked with different technologies such as HTML, CSS, JavaScript, PHP, MySQL, Laravel, Vue.js, Bootstrap, Tailwind, etc. I am currently studying a degree in computer science at the University of Guadalajara. I am passionate about technology and I am always looking for new challenges to improve my skills.",
-        "es": "Soy un desarrollador web con 3 años de experiencia en el campo. He trabajado con diferentes tecnologías como HTML, CSS, JavaScript, PHP, MySQL, Laravel, Vue.js, Bootstrap, Tailwind, etc. Actualmente estudio una carrera de ingeniería en computación en la Universidad de Guadalajara. Me apasiona la tecnología y siempre estoy buscando nuevos retos para mejorar mis habilidades."
+        "es": "Soy un desarrollador web con mas de 5 años de experiencia en el campo. He trabajado con diferentes tecnologías como HTML, CSS, JavaScript, PHP, JAVA, NODE JS, React, MySQL, Bootstrap, etc. Actualmente estoy impulsando Ideasoft, una idea que nació en mi mente hace 5 años y que ahora se ha convertido en una quiero hacer realidad. Me apasiona la tecnología y siempre estoy buscando nuevos retos para mejorar mis habilidades.",
+        "en": "I am a web developer with more than 5 years of experience in the field. I have worked with different technologies such as HTML, CSS, JavaScript, PHP, JAVA, NODE JS, React, MySQL, Bootstrap, etc. I am currently driving Ideasoft, an idea that was born in my mind 5 years ago and that is now becoming a want to make it a reality. I am passionate about technology and I am always looking for new challenges to improve my skills."
     },
     "client_logo1": "./clients/hercam.png",
     "client_logo2": "./clients/ists.png",
