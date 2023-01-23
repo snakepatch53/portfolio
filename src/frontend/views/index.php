@@ -68,29 +68,24 @@
         <section class="featured section-padding">
             <div class="container">
                 <div class="row">
-
                     <div class="col-lg-6 col-12">
                         <div class="profile-thumb">
                             <div class="profile-title">
                                 <h4 class="mb-0"><?= $_['PAGE1_ABOUT_INFORMATION'] ?></h4>
                             </div>
-
                             <div class="profile-body">
                                 <p>
                                     <span class="profile-small-title"><?= $_['PAGE1_ABOUT_NAME'] ?></span>
                                     <span><?= $_ME['name'] . " " . $_ME['lastname'] ?></span>
                                 </p>
-
                                 <p>
                                     <span class="profile-small-title"><?= $_['PAGE1_ABOUT_BIRTHDAY'] ?></span>
                                     <span><?= $_ME['birthday'][$lang] ?></span>
                                 </p>
-
                                 <p>
                                     <span class="profile-small-title"><?= $_['PAGE1_ABOUT_PHONE'] ?></span>
                                     <span><a href="tel: <?= $_ME['phone'] ?>"><?= $_ME['phone'] ?></a></span>
                                 </p>
-
                                 <p>
                                     <span class="profile-small-title"><?= $_['PAGE1_ABOUT_EMAIL'] ?></span>
                                     <span><a href="<?= $_ME['email'] ?>"><?= $_ME['email'] ?></a></span>
@@ -98,7 +93,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-lg-6 col-12 mt-5 mt-lg-0">
                         <div class="about-thumb">
                             <div class="row">
@@ -127,7 +121,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -139,23 +132,23 @@
                         <h3 class="text-center mb-5"><?= $_['PAGE1_ABOUT_COMPANIES_WORKED'] ?></h3>
                     </div>
                     <div class="col-lg-2 col-4 ms-auto clients-item-height">
-                        <img src="<?= $_ENV['STATIC_PATH'] ?>images/clients/hercam.png" class="clients-image img-fluid" alt="">
+                        <img src="<?= get_img_path($_ME['client_logo1']) ?>" class="clients-image img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-2 col-4 clients-item-height">
-                        <img src="<?= $_ENV['STATIC_PATH'] ?>images/clients/ists.png" class="clients-image img-fluid" alt="">
+                        <img src="<?= get_img_path($_ME['client_logo2']) ?>" class="clients-image img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-2 col-4 clients-item-height">
-                        <img src="<?= $_ENV['STATIC_PATH'] ?>images/clients/zoenet.jpg" class="clients-image img-fluid" alt="">
+                        <img src="<?= get_img_path($_ME['client_logo3']) ?>" class="clients-image img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-2 col-4 clients-item-height">
-                        <img src="<?= $_ENV['STATIC_PATH'] ?>images/clients/ideasoft.png" class="clients-image img-fluid" alt="">
+                        <img src="<?= get_img_path($_ME['client_logo4']) ?>" class="clients-image img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-2 col-4 me-auto clients-item-height">
-                        <img src="<?= $_ENV['STATIC_PATH'] ?>images/clients/moronanet.jpg" class="clients-image img-fluid" alt="">
+                        <img src="<?= get_img_path($_ME['client_logo5']) ?>" class="clients-image img-fluid" alt="">
                     </div>
 
                 </div>
@@ -207,48 +200,21 @@
                         </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="projects-thumb">
-                            <div class="projects-info">
-                                <small class="projects-tag">Branding</small>
+                    <?php foreach ($_ME['projects'] as $key => $value) { ?>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="projects-thumb">
+                                <div class="projects-info">
+                                    <small class="projects-tag"><?= $value['client'] ?></small>
 
-                                <h3 class="projects-title">Zoik agency</h3>
+                                    <h3 class="projects-title"><?= $value['name'][$lang] ?></h3>
+                                </div>
+
+                                <a href="<?= get_img_path($value['img']) ?>" class="popup-image">
+                                    <img src="<?= get_img_path($value['img']) ?>" class="projects-image img-fluid" alt="">
+                                </a>
                             </div>
-
-                            <a href="<?= $_ENV['STATIC_PATH'] ?>images/projects/nikhil-KO4io-eCAXA-unsplash.jpg" class="popup-image">
-                                <img src="<?= $_ENV['STATIC_PATH'] ?>images/projects/nikhil-KO4io-eCAXA-unsplash.jpg" class="projects-image img-fluid" alt="">
-                            </a>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="projects-thumb">
-                            <div class="projects-info">
-                                <small class="projects-tag">Photography</small>
-
-                                <h3 class="projects-title">The Watch</h3>
-                            </div>
-
-                            <a href="<?= $_ENV['STATIC_PATH'] ?>images/projects/the-5th-IQYR7N67dhM-unsplash.jpg" class="popup-image">
-                                <img src="<?= $_ENV['STATIC_PATH'] ?>images/projects/the-5th-IQYR7N67dhM-unsplash.jpg" class="projects-image img-fluid" alt="">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="projects-thumb">
-                            <div class="projects-info">
-                                <small class="projects-tag">Website</small>
-
-                                <h3 class="projects-title">Polo</h3>
-                            </div>
-
-                            <a href="<?= $_ENV['STATIC_PATH'] ?>images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg" class="popup-image">
-                                <img src="<?= $_ENV['STATIC_PATH'] ?>images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg" class="projects-image img-fluid" alt="">
-                            </a>
-                        </div>
-                    </div>
-
+                    <?php } ?>
                 </div>
             </div>
         </section>
@@ -257,148 +223,105 @@
         <section class="contact section-padding" id="section_5">
             <div class="container">
                 <div class="row">
-
                     <div class="col-lg-6 col-md-8 col-12">
                         <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
                             <img src="<?= $_ENV['STATIC_PATH'] ?>images/aerial-view-man-using-computer-laptop-wooden-table.jpg" class="avatar-image img-fluid" alt="">
-
-                            <h2 class="text-white ms-4 mb-0">Say Hi</h2>
+                            <h2 class="text-white ms-4 mb-0"><?= $_['PAGE1_CONTACT_TITLE'] ?></h2>
                         </div>
                     </div>
-
                     <div class="clearfix"></div>
-
                     <div class="col-lg-3 col-md-6 col-12 pe-lg-0">
                         <div class="contact-info contact-info-border-start d-flex flex-column">
-                            <strong class="site-footer-title d-block mb-3">Services</strong>
-
+                            <strong class="site-footer-title d-block mb-3"><?= $_['PAGE1_CONTACT_SERVICES'] ?></strong>
                             <ul class="footer-menu">
-                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Websites</a></li>
-
-                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Branding</a></li>
-
-                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">Ecommerce</a></li>
-
-                                <li class="footer-menu-item"><a href="#" class="footer-menu-link">SEO</a></li>
+                                <?php foreach ($_ME['contact_services'] as $key => $value) { ?>
+                                    <li class="footer-menu-item"><a class="footer-menu-link"><?= $value[$lang] ?></a></li>
+                                <?php } ?>
                             </ul>
-
-                            <strong class="site-footer-title d-block mt-4 mb-3">Stay connected</strong>
-
+                            <strong class="site-footer-title d-block mt-4 mb-3"><?= $_['PAGE1_CONTACT_SOCIAL'] ?></strong>
                             <ul class="social-icon">
-                                <li class="social-icon-item"><a href="https://twitter.com/minthu" class="social-icon-link bi-twitter"></a></li>
-
-                                <li class="social-icon-item"><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                                <li class="social-icon-item"><a href="#" class="social-icon-link bi-pinterest"></a></li>
-
-                                <li class="social-icon-item"><a href="https://www.youtube.com/templatemo" class="social-icon-link bi-youtube"></a></li>
+                                <?php foreach ($_ME['social_media'] as $key => $value) { ?>
+                                    <li class="social-icon-item">
+                                        <a href="<?= $value['link'] ?>" class="social-icon-link <?= $value['fontawesome'] ?>" target="_blank"></a>
+                                    </li>
+                                <?php } ?>
                             </ul>
-
-                            <strong class="site-footer-title d-block mt-4 mb-3">Start a project</strong>
-
-                            <p class="mb-0">I’m available for freelance projects</p>
+                            <strong class=" site-footer-title d-block mt-4 mb-3"><?= $_['PAGE1_CONTACT_START_PROJECT'] ?></strong>
+                            <p class="mb-0"><?= $_['PAGE1_CONTACT_START_PROJECT_DESC'] ?></p>
                         </div>
                     </div>
-
                     <div class="col-lg-3 col-md-6 col-12 ps-lg-0">
                         <div class="contact-info d-flex flex-column">
-                            <strong class="site-footer-title d-block mb-3">About</strong>
-
-                            <p class="mb-2">
-                                Joshua is a professional web developer. Feel free to get in touch with me.
-                            </p>
-
-                            <strong class="site-footer-title d-block mt-4 mb-3">Email</strong>
-
-                            <p>
-                                <a href="mailto:hello@josh.design">
-                                    hello@josh.design
-                                </a>
-                            </p>
-
-                            <strong class="site-footer-title d-block mt-4 mb-3">Call</strong>
-
-                            <p class="mb-0">
-                                <a href="tel: 120-240-9600">
-                                    120-240-9600
-                                </a>
-                            </p>
+                            <strong class="site-footer-title d-block mb-3"><?= $_['PAGE1_CONTACT_ABOUT'] ?></strong>
+                            <p class="mb-2"><?= $_ME['contact_about_me'][$lang] ?></p>
+                            <strong class="site-footer-title d-block mt-4 mb-3"><?= $_['PAGE1_CONTACT_EMAIL'] ?></strong>
+                            <p><a href="mailto:<?= $_ME['email'] ?>"><?= $_ME['email'] ?></a></p>
+                            <strong class="site-footer-title d-block mt-4 mb-3"><?= $_['PAGE1_CONTACT_CALL'] ?></strong>
+                            <p class="mb-0"><a href="tel:<?= $_ME['phone'] ?>"><?= $_ME['phone'] ?></a></p>
                         </div>
                     </div>
-
                     <div class="col-lg-6 col-12 mt-5 mt-lg-0">
                         <form action="#" method="get" class="custom-form contact-form" role="form">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <div class="form-floating">
                                         <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="">
-
-                                        <label for="floatingInput">Name</label>
+                                        <label for="floatingInput"><?= $_['PAGE1_CONTACT_FORM_NAME'] ?></label>
                                     </div>
                                 </div>
-
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <div class="form-floating">
                                         <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
-
-                                        <label for="floatingInput">Email address</label>
+                                        <label for="floatingInput"><?= $_['PAGE1_CONTACT_FORM_EMAIL'] ?></label>
                                     </div>
                                 </div>
-
                                 <div class="col-lg-3 col-md-6 col-6">
                                     <div class="form-check form-check-inline">
                                         <input name="website" type="checkbox" class="form-check-input" id="inlineCheckbox1" value="1">
-
                                         <label class="form-check-label" for="inlineCheckbox1">
                                             <i class="bi-globe form-check-icon"></i>
-                                            <span class="form-check-label-text">Websites</span>
+                                            <span class="form-check-label-text"><?= $_['PAGE1_CONTACT_FORM_OP1'] ?></span>
                                         </label>
                                     </div>
                                 </div>
-
-                                <div class="col-lg-3 col-md-6 col-6">
-                                    <div class="form-check form-check-inline">
-                                        <input name="branding" type="checkbox" class="form-check-input" id="inlineCheckbox2" value="1">
-
-                                        <label class="form-check-label" for="inlineCheckbox2">
-                                            <i class="bi-lightbulb form-check-icon"></i>
-                                            <span class="form-check-label-text">Branding</span>
-                                        </label>
-                                    </div>
-                                </div>
-
                                 <div class="col-lg-3 col-md-6 col-6">
                                     <div class="form-check form-check-inline">
                                         <input name="ecommerce" type="checkbox" class="form-check-input" id="inlineCheckbox3" value="1">
-
                                         <label class="form-check-label" for="inlineCheckbox3">
                                             <i class="bi-phone form-check-icon"></i>
-                                            <span class="form-check-label-text">Ecommerce</span>
+                                            <span class="form-check-label-text"><?= $_['PAGE1_CONTACT_FORM_OP2'] ?></span>
                                         </label>
                                     </div>
                                 </div>
-
+                                <div class="col-lg-3 col-md-6 col-6">
+                                    <div class="form-check form-check-inline">
+                                        <input name="branding" type="checkbox" class="form-check-input" id="inlineCheckbox2" value="1">
+                                        <label class="form-check-label" for="inlineCheckbox2">
+                                            <i class="bi-lightbulb form-check-icon"></i>
+                                            <span class="form-check-label-text"><?= $_['PAGE1_CONTACT_FORM_OP3'] ?></span>
+                                        </label>
+                                    </div>
+                                </div>
                                 <div class="col-lg-3 col-md-6 col-6">
                                     <div class="form-check form-check-inline me-0">
                                         <input name="seo" type="checkbox" class="form-check-input" id="inlineCheckbox4" value="1">
-
                                         <label class="form-check-label" for="inlineCheckbox4">
                                             <i class="bi-google form-check-icon"></i>
-                                            <span class="form-check-label-text">SEO</span>
+                                            <span class="form-check-label-text"><?= $_['PAGE1_CONTACT_FORM_OP4'] ?></span>
                                         </label>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12 col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control" id="message" name="message" placeholder="Tell me about the project"></textarea>
+                                        <textarea class="form-control" id="message" name="message" placeholder="<?= $_['PAGE1_CONTACT_FORM_SUBJECT'] ?>"></textarea>
 
-                                        <label for="floatingTextarea">Tell me about the project</label>
+                                        <label for=" floatingTextarea"><?= $_['PAGE1_CONTACT_FORM_SUBJECT'] ?></label>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3 col-12 ms-auto">
-                                    <button type="submit" class="form-control">Send</button>
+                                    <button type="submit" class="form-control"><?= $_['PAGE1_CONTACT_FORM_SEND'] ?></button>
                                 </div>
 
                             </div>

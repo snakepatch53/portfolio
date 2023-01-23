@@ -1,4 +1,6 @@
 {
+    "developer": "Ideasoft",
+    "developer_url": "https://ideasoft.site",
     "name": "Harold",
     "lastname": "Hernandez",
     "phone": "+593 95 999 9086",
@@ -7,6 +9,10 @@
     "happy_customers": "10",
     "finished_projects": "50+",
     "academic_awards": "4",
+    "contact_about_me": {
+        "es": "Harold es un desarrollador web profesional. No dude en ponerse en contacto conmigo.",
+        "en": "Harold is a professional web developer. Feel free to get in touch with me."
+    },
     "job": {
         "en": "Web Developer",
         "es": "Desarrollador Web"
@@ -22,7 +28,7 @@
     "client_logo1": "./clients/hercam.png",
     "client_logo2": "./clients/ists.png",
     "client_logo3": "./clients/zoenet.jpg",
-    "client_logo4": ".https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/2560px-Adidas_Logo.svg.png",
+    "client_logo4": "./clients/ideasoft.png",
     "client_logo5": "./clients/moronanet.jpg",
     "skills": [
         {
@@ -136,9 +142,124 @@
     ],
     "projects": [
         {
-            "type": "Movil App",
-            "name": "Covid-19",
-            "img": "./covid-19.png"
+            "client": "Moronanet - WEB & PANEL 🌐",
+            "name": {
+                "es": "Sitio Web",
+                "en": "Website"
+            },
+            "img": "./projects/moronanet.png",
+            "link": "https://moronanet.com/",
+            "github": "https://github.com/snakepatch53/moronanet.git"
+        },
+        {
+            "client": "Gonzalo Producciones - WEB & PANEL 💻",
+            "name": {
+                "es": "Aplicacion web",
+                "en": "Web application"
+            },
+            "img": "./projects/photography.png",
+            "link": "",
+            "github": "https://github.com/snakepatch53/photography.git"
+        },
+        {
+            "client": "Ideasoft - Biometric ⚛️",
+            "name": {
+                "es": "Sistema Web",
+                "en": "Web System"
+            },
+            "img": "./projects/biometric.png",
+            "link": "https://asistencia.moronanet.com/",
+            "github": "https://github.com/snakepatch53/biometric.git"
+        },
+        {
+            "client": "Ideasoft - Beastly 🚀",
+            "name": {
+                "es": "Sistema Web",
+                "en": "Web System"
+            },
+            "img": "./projects/beastly.png",
+            "link": "",
+            "github": "https://github.com/snakepatch53/beastly.git"
+        },
+        {
+            "client": "Gonzalo Producciones - Lottery 🎲",
+            "name": {
+                "es": "Juego Web",
+                "en": "Web game"
+            },
+            "img": "./projects/lottery.png",
+            "link": "https://lottery.moronanet.com/",
+            "github": "https://github.com/snakepatch53/lottery.git"
+        },
+        {
+            "client": "Anonimo - WEB & PANEL 🌐",
+            "name": {
+                "es": "Sitio Web",
+                "en": "Website"
+            },
+            "img": "./projects/restaurant.png",
+            "link": "",
+            "github": "https://github.com/snakepatch53/reservador_restaurants.git"
+        },
+        {
+            "client": "Ideasoft - Facturador 📄",
+            "name": {
+                "es": "Sistema Web",
+                "en": "Web System"
+            },
+            "img": "./projects/facturacion.png",
+            "link": "https://facturacion.moronanet.com/",
+            "github": ""
+        },
+        {
+            "client": "Moronanet - API 💭",
+            "name": {
+                "es": "Servidor API HTTP",
+                "en": "HTTP API Server"
+            },
+            "img": "./projects/api_moronanet.png",
+            "link": "https://api.moronanet.com/",
+            "github": "https://github.com/snakepatch53/moronanet_api.git"
+        }
+    ],
+    "contact_services": [
+        {
+            "es": "Frontent Developer",
+            "en": "Frontend Developer"
+        },
+        {
+            "es": "Backend Developer",
+            "en": "Backend Developer"
+        },
+        {
+            "es": "Lider de Proyecto",
+            "en": "Project Leader"
+        },
+        {
+            "es": "Asesor de Tecnologia",
+            "en": "Technology Advisor"
+        }
+    ],
+    "social_media": [
+        {
+            "name": "Facebook",
+            "fontawesome": "fab fa-facebook",
+            "link": "https://www.facebook.com/Harold.Anderson.Hernandez"
+        },
+        {
+            "name": "Instagram",
+            "fontawesome": "fab fa-instagram",
+            "link": "https://www.instagram.com/snakepatch53/"
+        },
+        {
+            "name": "Linkedin",
+            "fontawesome": "fab fa-linkedin",
+            "link": "https://linkedin.com/in/harold-hernández-zambrano-63018519b"
+        },
+        {
+            "name": "Github",
+            "fontawesome": "fab fa-github",
+            "link": "https://github.com/snakepatch53"
         }
     ]
 }
