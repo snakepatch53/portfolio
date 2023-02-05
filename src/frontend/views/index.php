@@ -20,7 +20,7 @@
                     <div class="col-lg-7 col-12">
                         <div class="hero-text">
                             <div class="hero-title-wrap d-flex align-items-center mb-4">
-                                <img src="<?= $_ENV['STATIC_PATH'] ?>images/happy-bearded-young-man.jpg" class="avatar-image avatar-image-large img-fluid" alt="">
+                                <img style="object-position: top;" src="<?= $_ENV['STATIC_PATH'] ?>images/me/harold-6.jpg" class="avatar-image avatar-image-large img-fluid" alt="Mi foto">
 
                                 <h1 class="hero-title ms-3 mb-0"><?= $_['PAGE1_HOME_CHAT_MSG_1'] ?></h1>
                             </div>
@@ -32,7 +32,7 @@
 
                     <div class="col-lg-5 col-12 position-relative">
                         <div class="hero-image-wrap"></div>
-                        <img src="<?= $_ENV['STATIC_PATH'] ?>images/portrait-happy-excited-man-holding-laptop-computer.png" class="hero-image img-fluid" alt="">
+                        <img src="<?= $_ENV['STATIC_PATH'] ?>images/me/harold-12.png" class="hero-image img-fluid" alt="Mi foto">
                     </div>
 
                 </div>
@@ -48,13 +48,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-12">
-                        <img src="<?= $_ENV['STATIC_PATH'] ?>images/couple-working-from-home-together-sofa.jpg" class="about-image img-fluid" alt="">
+                        <img src="<?= $_ENV['STATIC_PATH'] ?>images//me/harold-10.jpg" class="about-image img-fluid" alt="">
                     </div>
                     <div class="col-lg-6 col-12 mt-5 mt-lg-0">
                         <div class="about-thumb">
                             <div class="section-title-wrap d-flex justify-content-end align-items-center mb-4">
                                 <h2 class="text-white me-4 mb-0"><?= $_['PAGE1_ABOUT_STORY'] ?></h2>
-                                <img src="<?= $_ENV['STATIC_PATH'] ?>images/happy-bearded-young-man.jpg" class="avatar-image img-fluid" alt="">
+                                <img style="object-position: top;" src="<?= $_ENV['STATIC_PATH'] ?>images/me/harold-6.jpg" class="avatar-image img-fluid" alt="">
                             </div>
                             <h3 class="pt-2 mb-3"><?= $_['PAGE1_ABOUT_ABOUT'] . " " . $_ME['name'] ?></h3>
                             <p><?= $_ME['story'][$lang] ?></p>
@@ -161,7 +161,7 @@
                 <div class="row">
                     <div class="col-lg-10 col-12 mx-auto">
                         <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-                            <img src="<?= $_ENV['STATIC_PATH'] ?>images/handshake-man-woman-after-signing-business-contract-closeup.jpg" class="avatar-image img-fluid" alt="">
+                            <img src="<?= $_ENV['STATIC_PATH'] ?>images/me/harold-9.jpg" class="avatar-image img-fluid" alt="">
                             <h2 class="text-white ms-4 mb-0"><?= $_['PAGE1_SKILLS_TITLE'] ?></h2>
                         </div>
                         <div class="row pt-lg-5">
@@ -195,7 +195,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-8 col-12 ms-auto">
                         <div class="section-title-wrap d-flex justify-content-center align-items-center mb-4">
-                            <img src="<?= $_ENV['STATIC_PATH'] ?>images/white-desk-work-study-aesthetics.jpg" class="avatar-image img-fluid" alt="">
+                            <img src="<?= $_ENV['STATIC_PATH'] ?>images/me/harold-13.jpg" class="avatar-image img-fluid" alt="">
                             <h2 class="text-white ms-4 mb-0"><?= $_['PAGE1_PROJECTS_TITLE'] ?></h2>
                         </div>
                     </div>
@@ -225,7 +225,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-8 col-12">
                         <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-                            <img src="<?= $_ENV['STATIC_PATH'] ?>images/aerial-view-man-using-computer-laptop-wooden-table.jpg" class="avatar-image img-fluid" alt="">
+                            <img src="<?= $_ENV['STATIC_PATH'] ?>images/me/harold-8.jpg" class="avatar-image img-fluid" alt="">
                             <h2 class="text-white ms-4 mb-0"><?= $_['PAGE1_CONTACT_TITLE'] ?></h2>
                         </div>
                     </div>
