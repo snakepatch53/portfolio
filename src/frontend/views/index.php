@@ -20,7 +20,7 @@
                     <div class="col-lg-7 col-12">
                         <div class="hero-text">
                             <div class="hero-title-wrap d-flex align-items-center mb-4">
-                                <img style="object-position: top;" src="<?= $_ENV['STATIC_PATH'] ?>images/me/harold-6.jpg" class="avatar-image avatar-image-large img-fluid" alt="Mi foto">
+                                <img style="object-position: top;background-color:#ffffff;" src="<?= $_ENV['STATIC_PATH'] ?>images/me/harold-4.png" class="avatar-image avatar-image-large img-fluid" alt="Mi foto">
 
                                 <h1 class="hero-title ms-3 mb-0"><?= $_['PAGE1_HOME_CHAT_MSG_1'] ?></h1>
                             </div>
